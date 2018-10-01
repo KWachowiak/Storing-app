@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: postgres
+    password: test123
+    url: jdbc:postgresql://localhost:5432/TaskDB
+  jpa:
+    database: POSTGRESQL
+    generate-ddl: true
+    hibernate.ddl-auto: create-drop
+    show-sql: true
